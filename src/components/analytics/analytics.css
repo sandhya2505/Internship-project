@@ -1,0 +1,10 @@
+.analytics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.analytics > img {
+  height: 80%;
+  width: 100%;
+}

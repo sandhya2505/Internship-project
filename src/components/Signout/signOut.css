@@ -1,0 +1,31 @@
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.signOut {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.icon {
+  background: rgb(247, 88, 88);
+  padding: 5px;
+  border-radius: 0 10px 10px 0;
+}
+.btn {
+  border: 2px solid var(--pink);
+  padding: 10px 20px;
+  border-radius: 0 10px 10px 0;
+}
+.btn > a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.btn:hover {
+  background: var(--pink);
+}
